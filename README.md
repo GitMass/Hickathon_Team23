@@ -24,5 +24,7 @@ The task was multi-class classification on a dataset elaborated by the Hi!Paris 
 
 We reached our performance mostly through a thorough pre-processing effort. From there we evaluated a few models, leading us to XGBoost before focusing on finding the right parameters. Our 2nd-place score was achieved by making a "vote" between our 5 best csv files, that were produced by models ranging from 5k  to 15k estimators and with depths of 10 to 13.
 
-The code in this repo was produced fast, hence its packaging. We did not take the time to make something pleasant to read nor optimized for obvious reasons.
+The code in this repo was produced fast, hence its packaging. We did not take the time to make something pleasant to read nor optimized for obvious reasons.  
+
+The dataset in this repository has been cropped to 10,000 rows to address storage constraints.
 
